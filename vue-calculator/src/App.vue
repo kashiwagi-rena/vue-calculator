@@ -8,4 +8,9 @@
 </template>
 
 <style scoped>
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
 </style>
