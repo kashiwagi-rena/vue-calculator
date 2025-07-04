@@ -8,7 +8,9 @@
   <main>
     <h1>Hello, {{ message }}!</h1>
   </main>
-  <footer>©️ {{ name }} {{ year }}</footer>
+  <footer>
+    <p>&copy; name 1234</p>
+  </footer>
 </template>
 
 <style scoped>
@@ -19,7 +21,12 @@
   }
 
   footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     color: white;
     text-align: center;
+    font-family: monospace;
   }
 </style>
